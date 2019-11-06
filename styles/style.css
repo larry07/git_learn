@@ -1,72 +1,66 @@
 body{
-    background-color: orange;
-    font-family: 'Monaco',sans-serif;
+	background-color: orange;
+    font-family: 'Ubuntu', sans-serif;
     color: white;
 }
 
-/*后代选择器*/
-body a{   
-    color: white;
+body a{
+	color: white;
 }
 
 header{
-    text-align: center;
-    margin-top: 50px;
+	text-align: center;
+	margin-top: 50px;
 }
 
 h3{
-    color:red;
+	color: red;
 }
 
-header-img{
-    width: 400px;
+#header-img{
+	width: 400px;
 }
 
-header-words{
-line-height: 10px;
-font-size: 50px;
-font-family: 'Monaco',sans-serif;
-margin-bottom: 75px;
+#header-words{
+	line-height: 10px;
+	font-size: 50px;
+    font-family: 'Exo', sans-serif;
+    margin-bottom: 75px;
 }
+
 section{
-    padding: 0 50px 0px 50px;
-    text-align:left;
+	padding: 0 50px 0px 50px;
+	text-align: center;
 }
 
-div{ 
-    width: 200px;
-    height: 200px;
-    background: blue;
-    /* border: 15px solid red; */
+footer{
+	right: 0;
+  	bottom: 0;
+  	position: relative;
+ 	padding: 10px 1rem 10px 0;
+ 	margin-top: 50px;
+ 	font-size: 0.7em;
+  	text-align: right;
 }
-/* 
 
-. 类
-# id  唯一性 
+footer p{
+	margin-bottom:0;
+}
 
-*/
 
-a{ 
-    color: #000;
-    font-size: 30px;
+div.accordion {
+    cursor: pointer;
+    border: none;
+    outline: none;
+
 }
-a:hover{ 
-    color: green;
- }
- .abc{ 
-    color: blue;
-  }
-  ul li:first-child{ 
-    color: orange;
-    background: blue;
+
+div.accordion.active, div.accordion:hover {
+    background-color: white;
+    color: #1D2031;
 }
-ul li:last-child{ 
-color: blue;
- background: orange;
-}
-ul li:nth-child(3){  
- color: green;
-}
-ul li:only-child{ 
-color: red;
+
+div.panel {
+    padding: 0 18px 0 0;
+    display: none;
 }
