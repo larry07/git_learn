@@ -1,1 +1,1 @@
-test "git remote"
+test "git push -u origin master"
